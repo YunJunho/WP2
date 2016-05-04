@@ -5,6 +5,7 @@ for i in range(5):
 
 입력값
 
+
 def left_up() :
 	count = int(input())
 	for i in range(count) :
