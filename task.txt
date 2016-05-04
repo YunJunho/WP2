@@ -3,6 +3,8 @@
 for i in range(5):
 	print("*" * (i+1))
 
+입력값
+
 def left_up() :
 	count = int(input())
 	for i in range(count) :
@@ -16,6 +18,8 @@ c = 4
 for i in range(5) :
 	print(" " * c + "*" * (	i+1))
 	c -= 1
+
+입력값
 
 def right_up() :
 	count = int(input())
@@ -48,6 +52,8 @@ a = 5
 for i in range(5) :
 	print("*" * a)
 	a -= 1
+
+입력값
 
 def left_down() :
 	count = int(input())
