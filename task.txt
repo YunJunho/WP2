@@ -1,0 +1,58 @@
+왼쪽 벽에 붙어서 증가
+
+for i in range(5):
+	print("*" * (i+1))
+
+
+def left_up() :
+	count = int(input())
+	for i in range(count) :
+		print("*" * (i+1))
+
+
+
+오른쪽 벽에 붙어서 증가
+
+c = 4
+for i in range(5) :
+	print(" " * c + "*" * (	i+1))
+	c -= 1
+
+def right_up() :
+	count = int(input())
+	for i in range(count) :
+		print(" " * (count-1) + "*" * (i+1))
+		count -= 1
+
+
+오른쪽 벽에 붙어서 감소
+
+a = 5
+b = 5
+
+for i in range(a) :
+	print(" " * i + b * "*")
+	b -= 1
+
+입력값
+
+def right_down () :
+	count = int(input())
+	for i in range(count) :
+		print (" " * i + count * "*")
+		count -= 1
+
+
+
+왼쪽 벽에 붙어서 감소
+a = 5
+for i in range(5) :
+	print("*" * a)
+	a -= 1
+
+def left_down() :
+	count = int(input())
+	for i in range(count) :
+		print("*" * count)
+		count -= 1
+
