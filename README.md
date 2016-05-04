@@ -26,10 +26,10 @@ _ _ _
 **- 입력과 출력** 
 * 입력과 출력은 Python 내장 함수를 이용해서 할 수 있다.
 	- Python의 버전마다 다르게 동작
-	| |Python 2  | Python3 |
-	|-|--------|--------|
-    |입력 |raw_input()|  input()|
-    |출력| print " "|print (" ")  
+	| |Python 2|Python3 |
+	|---|-----------|--------|
+    |입력|raw_input()|input()|
+    |출력| print " "|print (" ")| 
       print " " -> print를 함수가 아니라 출력하는 기능을 가진 것으로만
       
  	print(" ") -> print가 함수
