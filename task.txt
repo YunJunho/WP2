@@ -3,7 +3,6 @@
 for i in range(5):
 	print("*" * (i+1))
 
-
 def left_up() :
 	count = int(input())
 	for i in range(count) :
